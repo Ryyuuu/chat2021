@@ -234,7 +234,8 @@ def run_chat(chat = chat, start='占いするよ', **kw):
   output.register_callback('notebook.Convert', convert)
   if start is not None:
     display_bot(start)
-
+    
+############　直す　########
 # フレーム 状態をもつ辞書
 # 'name', 'birthday', 'asking'
 frame = {}
